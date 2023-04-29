@@ -1,9 +1,6 @@
 console.log('hello lovely lady');
 //create map
-const myMap = L.map('map', {  //.setView([51.505, -0.09], 13)
-    center: [48.868672, 2.342130],
-    zoom: 12,
-})
+
 
 //API: geolocation
 async function getCoords(){
